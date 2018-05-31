@@ -44,6 +44,6 @@ DocumentTermMatrix(
 ) %>%
 removeSparseTerms(0.99) %>%                     # at least in 1% documents
 removeCommonTerms(0.50) %>%                     # maximun 50% documents
-as.matrix(tdm) %>%                              # to matrix
+as.matrix() %>%                              # to matrix
 write.csv2(file = "/home/filipe/Desktop/text-mining/data/20_newsgroup/result_tf_idf.csv")
 
