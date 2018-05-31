@@ -6,6 +6,18 @@ Text mining generic script made with [tm package](https://github.com/cran/tm) to
 
 [20 newsgroup dataset](http://qwone.com/~jason/20Newsgroups/) with 20 clusters.
 
+RemoveSparseTerms is the most function to apply in your dataset, otherwise you'll get a huge document term matrix such as:
+
+```R
+<<DocumentTermMatrix (documents: 18828, terms: 90779)>>
+Non-/sparse entries: 1684692/1707502320
+Sparsity           : 100%
+Maximal term length: 16
+Weighting          : term frequency - inverse document frequency (normalized) (tf-idf)
+```
+
+The following tests were made to see how different is the output when the percentage in removeTerms function is higher or lower.
+
 ### test one
 
 **input**
