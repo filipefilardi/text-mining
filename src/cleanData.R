@@ -8,7 +8,7 @@ removeEmail <- function(X) {
 } 
 
 # Funtion to remove most common terms by percentage
-removeCommonTerms <- function (X, percentage) {
+removeCommonTerms <- function(X, percentage) {
 	x <- t(X)
 	t <- table(x$i) < x$ncol * percentage
 	X[, as.numeric(names(t[t]))]
