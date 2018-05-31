@@ -1,6 +1,6 @@
 # text-mining
 
-Text mining generic script made with tm package to use as input in machine learning techniques, such as text clustering or text classification.
+Text mining generic script made with [tm package](https://github.com/cran/tm) to use as input in machine learning techniques, such as text clustering or text classification.
 
 ## Corpus
 
