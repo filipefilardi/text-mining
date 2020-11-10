@@ -4,7 +4,7 @@ Text mining generic script made with [tm package](https://github.com/cran/tm) to
 
 ## Corpus
 
-[20 newsgroup dataset](http://qwone.com/~jason/20Newsgroups/) with 20 clusters.
+[20 newsgroup dataset](http://qwone.com/~jason/20Newsgroups/) with 20 classes.
 
 RemoveSparseTerms is the most function to apply in your dataset, otherwise you'll get a huge document term matrix such as:
 
